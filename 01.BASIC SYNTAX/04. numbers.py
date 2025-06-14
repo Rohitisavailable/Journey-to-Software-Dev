@@ -1,0 +1,19 @@
+score = 0
+score = "0"
+#score is a variable that holds a number
+
+
+score =  42000000
+score = 42,000,000
+print(score)
+# , separates thousands in the output, but it is not part of the number
+# , is not a valid character in a number in Python
+card_balance = -2000
+print(card_balance)
+total_price = 100.50
+#.50 # is a decimal part of the number
+
+total_price = -.5
+total_price = 100
+
+print(total_price)
