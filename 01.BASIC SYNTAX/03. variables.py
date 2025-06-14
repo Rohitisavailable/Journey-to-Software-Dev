@@ -49,4 +49,6 @@ print(first_name, last_name)
 
 #summary:
 # Variables are used to store data values.
-# shor
+# provide short, descriptive names for the data you want to store.
+# Variables names should start with letters
+# use underscores_separated style for multi-word variable names
