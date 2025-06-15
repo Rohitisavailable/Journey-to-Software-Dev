@@ -33,3 +33,24 @@ work = "Apple Inc."
 message = f"Your Name is {name} and your age is {age} and you work at {work}."
 # message is a string variable that stores a formatted message
 print(message)
+################################################################################################
+
+car = "Tesla"
+# car is a string variable that stores the name of the car "Tesla"
+
+model = "Model S"
+# model is a string variable that stores the model of the car "Model S"
+
+acceleration = 2.3
+# acceleration is a float variable that stores the acceleration time 2.3 seconds
+
+message = f"your {car} {model} can accelerate from 0 to 60 mph in {acceleration} seconds."
+# message is a string variable that stores a formatted message about the car
+print(message)
+################################################################################################
+pi = 3.14159
+# pi is a float variable that stores the value of pi
+
+message = f"The value of pi is approximately {pi:.2f}"
+# message is a string variable that stores a formatted message about the value of pi
+print(message)
