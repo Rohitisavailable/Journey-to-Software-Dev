@@ -61,7 +61,7 @@ print(len(message))
 # The len() function returns the length of the string message
 # In this case, it returns the number of characters in the message string
 #len also includes spaces and punctuation in the count
-
+####################################################################################################################################################################################################
 message1 = "£▼€¥©©℉©⁂♪ª⁇¿"
 # message1 is a string variable that stores a string with special characters and symbols
 # The string contains various symbols including currency symbols, musical notes, and other special characters
@@ -69,7 +69,7 @@ message1 = "£▼€¥©©℉©⁂♪ª⁇¿"
 print(f"The string {message1} has a length of {len(message1)} ")
 ## The len() function is used to find the length of the string message1
 # It counts all characters, including special characters and symbols
-
+####################################################################################################################################################################################################
 message2 = " Stay hungry. Stay foolish. "
 # message2 is a string variable that stores a quote with leading and trailing spaces
 # The string contains the quote "Stay hungry. Stay foolish." with extra spaces at the beginning and end
@@ -126,3 +126,4 @@ print(f"The letter 'o' appears {o_count} times in the message.")
 
 
 print(f" standard message is :{message2}")
+####################################################################################################################################################################################################

@@ -32,3 +32,4 @@ print(50 * True)
 #here, we are multiplying 50 by is_empty which is True (1).
 # The result will be 50 because any number multiplied by 1 is the number itself.
 
+####################################################################################################################################################################################################
