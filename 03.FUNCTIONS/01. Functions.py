@@ -15,7 +15,7 @@ area = length * width
 print(f"The area of the rectangle with lenght {length} and width {width} is {area}.")
 # f-string is used to format the string with the values of length, width, and area
 #{} is used to insert the value of a variable into a string
-################################################################################################################
+################################################################################################################################################################################################################################
 #def is a keyword used to define a function in Python
 #def function_name(parameters1, parameters2, .... parameters_n):
 #function body 
@@ -35,3 +35,24 @@ print(f"The area of the rectangle with lenght {length} and width {width} is {are
 # 8. find,
 # 9. print,
 # 10. show
+################################################################################################################################################################################################################################
+# Add a noun for clarity like:
+# 1. authenticate_user,
+# 2. calculate_area,
+# 3. get_user_info,
+# 4. set_user_password,
+# 5. update_user_profile,
+# 6. delete_user_account,
+# 7. create_new_user,
+# 8. find_user_by_id,
+# 9. print_report,
+# 10. show_user_details
+################################################################################################################################################################################################################################
+#the funtion name is followed by parentheses ()
+#parameters are the inputs to the function, they are optional
+#inside the parentheses, you can define parameters that the function will accept
+#we can leave the parentheses empty if the function does not require any parameters
+#if your paramenters are more than one, you can separate them with commas like : def calculate_area(length, width):
+    #funtion body contains the code that will be executed when the function is called
+    # a function can have multiple statements
+    #if a function need to return a value, you can use the return statement
