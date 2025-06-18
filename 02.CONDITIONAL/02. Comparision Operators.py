@@ -158,6 +158,8 @@ if number == 12:
 #     # code block for condition3
 # else:
 #     # code block for all other conditions
+###########################################################################################################
+#example for green light
 
 traffic_light = "green"
 #traffic_light is a variable that stores green as value.
@@ -181,3 +183,79 @@ else:
     #else is used to check if the traffic light is not green, yellow, red, or blinking.
     # If the traffic light is not any of the above, it prints a message indicating an invalid traffic light.
     print("INVALID TRAFFIC LIGHT!!!!!!!!")
+###################################################################################################################################
+#example for red light 
+
+traffic_light = "red"
+#traffic_light is a variable that stores green as value.
+#green is a string that represents the state of a traffic light.
+
+if traffic_light == "green":
+    print("GO!!!!!!!!")
+elif traffic_light == "yellow":
+#elif is used to check if the traffic light is yellow.
+    # If the traffic light is yellow, it prints a message indicating to slow down.
+    print("SLOW DOWN!!!!!!!!")
+elif traffic_light == "red":
+    #elif is used to check if the traffic light is red.
+    # If the traffic light is red, it prints a message indicating to stop.
+    print("STOP!!!!!!!!")
+elif traffic_light == "blinking":
+    #elif is used to check if the traffic light is blinking.
+    # If the traffic light is blinking, it prints a message indicating caution.
+    print("CAUTION!!!!!!!!")
+else:
+    #else is used to check if the traffic light is not green, yellow, red, or blinking.
+    # If the traffic light is not any of the above, it prints a message indicating an invalid traffic light.
+    print("INVALID TRAFFIC LIGHT!!!!!!!!")
+###################################################################################################################################
+#example for yellow light
+
+traffic_light = "yellow"
+#traffic_light is a variable that stores green as value.
+#green is a string that represents the state of a traffic light.
+
+if traffic_light == "green":
+    print("GO!!!!!!!!")
+elif traffic_light == "yellow":
+#elif is used to check if the traffic light is yellow.
+    # If the traffic light is yellow, it prints a message indicating to slow down.
+    print("SLOW DOWN!!!!!!!!")
+elif traffic_light == "red":
+    #elif is used to check if the traffic light is red.
+    # If the traffic light is red, it prints a message indicating to stop.
+    print("STOP!!!!!!!!")
+elif traffic_light == "blinking":
+    #elif is used to check if the traffic light is blinking.
+    # If the traffic light is blinking, it prints a message indicating caution.
+    print("CAUTION!!!!!!!!")
+else:
+    #else is used to check if the traffic light is not green, yellow, red, or blinking.
+    # If the traffic light is not any of the above, it prints a message indicating an invalid traffic light.
+    print("INVALID TRAFFIC LIGHT!!!!!!!!")
+###################################################################################################################################
+#example for blinking light
+
+traffic_light = "blinking"
+#traffic_light is a variable that stores green as value.
+#green is a string that represents the state of a traffic light.
+
+if traffic_light == "green":
+    print("GO!!!!!!!!")
+elif traffic_light == "yellow":
+#elif is used to check if the traffic light is yellow.
+    # If the traffic light is yellow, it prints a message indicating to slow down.
+    print("SLOW DOWN!!!!!!!!")
+elif traffic_light == "red":
+    #elif is used to check if the traffic light is red.
+    # If the traffic light is red, it prints a message indicating to stop.
+    print("STOP!!!!!!!!")
+elif traffic_light == "blinking":
+    #elif is used to check if the traffic light is blinking.
+    # If the traffic light is blinking, it prints a message indicating caution.
+    print("CAUTION!!!!!!!!")
+else:
+    #else is used to check if the traffic light is not green, yellow, red, or blinking.
+    # If the traffic light is not any of the above, it prints a message indicating an invalid traffic light.
+    print("INVALID TRAFFIC LIGHT!!!!!!!!")
+###################################################################################################################################
