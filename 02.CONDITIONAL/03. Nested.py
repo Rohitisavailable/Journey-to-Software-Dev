@@ -14,3 +14,17 @@
 
 
 
+# don't do this
+#if ...:
+#    if ...:
+#        if ...:
+#            if ...:
+                # code
+#            else:
+                # code
+#        else:
+            # code
+#    else:
+        # code
+#else:
+    # code 
