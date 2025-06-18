@@ -9,7 +9,7 @@
 # <= (less than or equal to)
 # These operators can be used in conditional statements to control the flow of the program.
 ## Example of Comparision Operators
-
+#######################################################################################################################################
 #1. greater than (>)
 # The > operator is used to compare two values.
 # The > operator checks if the left operand is greater than the right operand.
@@ -31,6 +31,8 @@ else:
 #it prints "Insufficient balance for this transaction." and "Current balance: 1000" because 1000 is not greater than 1000.
 
 print("2. Greater than (>=)")
+
+#######################################################################################################################################
       
 #2.Greater than (>=)
 # The >= operator checks if the left operand is greater than or equal to the right operand.
@@ -48,6 +50,8 @@ else:
 #it prints "Current balance: 0" and "Transaction successful." because 1000 is greater than or equal to 1000.
 print("3. less than (<)")
 
+#######################################################################################################################################
+
 #3.less than (<)
 # The < operator checks if the left operand is less than the right operand.
 if balance < money:
@@ -63,6 +67,9 @@ else:
     print(f"Current balance: {balance}")
 #it prints "Insufficient balance for this transaction." and "Current balance: 0" because 0 is not less than 1000.
 print("4. Less than (<=)")
+
+#######################################################################################################################################
+
 #4.Less than (<=)
 # The <= operator checks if the left operand is less than or equal to the right operand.
 if balance <= money:
@@ -78,6 +85,9 @@ else:
     print(f"Current balance: {balance}")
 #it prints "Current balance: 0" and "Transaction successful." because 0 is less than or equal to 1000.
 print("5. Equal to (==)")
+
+#######################################################################################################################################
+
 #5.Equal to (==)
 # The == operator checks if the left operand is equal to the right operand.
 if balance == money:
@@ -93,6 +103,9 @@ else:
     print(f"Current balance: {balance}")
 #it prints "Insufficient balance for this transaction." and "Current balance: 0" because 0 is not equal to 1000.
 print("6. Not equal to (!=)")
+
+#######################################################################################################################################
+
 #6.Not equal to (!=)
 # The != operator checks if the left operand is not equal to the right operand.
 if balance != money:
@@ -108,6 +121,7 @@ else:
     print(f"Current balance: {balance}")
 #it prints "Current balance: -1000" and "Transaction successful." because 0 is not equal to 1000.
 
+#######################################################################################################################################
 
 #example 
 
@@ -130,3 +144,40 @@ if number == 12:
 # 12 is even.
 # 12 is greater than 10.
 # 12 is equal to 12.
+#######################################################################################################################################
+
+#else if statements
+# else if statements are used to check multiple conditions in a single if statement.
+# They allow you to check multiple conditions and execute different blocks of code based on the condition that evaluates to True.
+# The syntax for else if statements is as follows:
+# if condition1:
+#     # code block for condition1
+# elif condition2:
+#     # code block for condition2
+# elif condition3:
+#     # code block for condition3
+# else:
+#     # code block for all other conditions
+
+traffic_light = "green"
+#traffic_light is a variable that stores green as value.
+#green is a string that represents the state of a traffic light.
+
+if traffic_light == "green":
+    print("GO!!!!!!!!")
+elif traffic_light == "yellow":
+#elif is used to check if the traffic light is yellow.
+    # If the traffic light is yellow, it prints a message indicating to slow down.
+    print("SLOW DOWN!!!!!!!!")
+elif traffic_light == "red":
+    #elif is used to check if the traffic light is red.
+    # If the traffic light is red, it prints a message indicating to stop.
+    print("STOP!!!!!!!!")
+elif traffic_light == "blinking":
+    #elif is used to check if the traffic light is blinking.
+    # If the traffic light is blinking, it prints a message indicating caution.
+    print("CAUTION!!!!!!!!")
+else:
+    #else is used to check if the traffic light is not green, yellow, red, or blinking.
+    # If the traffic light is not any of the above, it prints a message indicating an invalid traffic light.
+    print("INVALID TRAFFIC LIGHT!!!!!!!!")
