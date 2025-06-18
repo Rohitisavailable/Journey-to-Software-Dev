@@ -22,3 +22,39 @@ else:
 #2. OR operator
 #OR operator uses two values and returns True if at least one of them is True
 #otherwise it returns False
+
+first_name = "Ellen"
+last_name  = "Smith"
+
+if first_name == "Ellen" or last_name == "Smith":
+    #or is used to check if at least one condition is True
+    print(f"Welcome, {first_name } {last_name}!")
+else:
+    print("Access denied. You are not Ellen or Smith.") 
+    
+#############################################################################################
+#second example of OR operator
+first_name = "John"
+last_name  = "Doe"
+
+if len(first_name) == 0 or len(last_name) == 0:
+    #len is used to check if first_name equals 0 resulting in False
+    #last_name equals 0 resulting in False
+    #if either first_name or last_name is empty, the condition is True
+    #or is used to check if at least one condition is True
+    #we have first_name and last_name as false ---->false which evaluates to false
+    print("Please provide your name.")
+else:
+    print(f"Hello, {first_name} {last_name}!")
+#############################################################################################
+#3. NOT operator
+#NOT operator takes one value and returns True if the value is False
+#otherwise it returns False
+
+admin_user = True
+
+if not admin_user:
+    #not is used to check if admin_user is False
+    print("Access denied. You are not an admin user.")
+else:
+    print("Welcome, admin user!")
