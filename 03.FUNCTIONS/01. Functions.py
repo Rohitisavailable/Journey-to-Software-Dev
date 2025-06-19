@@ -74,3 +74,11 @@ print(f"The area of the square is {area}.")
 # we can anotate parameters with types to indicate what type of value they should accept
 #for example, we can specify that the side parameter should be an integer it should only take value as 5 not "five"
 #we can also anotate the return type so that it it prints number instead of spelling it out
+
+def build_ferarri(color = "red"):
+  # This function builds a Ferrari with the specified color
+  # red is the default color if no color is specified
+  print(f"Built a {color} Ferrari")
+
+build_ferarri()
+#blue is the argument passed to the function
