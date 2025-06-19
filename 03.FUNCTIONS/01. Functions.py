@@ -56,3 +56,14 @@ print(f"The area of the rectangle with lenght {length} and width {width} is {are
     #funtion body contains the code that will be executed when the function is called
     # a function can have multiple statements
     #if a function need to return a value, you can use the return statement
+
+def calculate_square_area(side):
+  #side is a parameter that represents the length of one side of the square
+  
+  return side * side
+
+area = calculate_square_area(5)
+#calling the function with an argument of 5
+#5 is argument passed to the function
+
+print(f"The area of the square is {area}.")
