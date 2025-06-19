@@ -57,13 +57,20 @@ print(f"The area of the rectangle with lenght {length} and width {width} is {are
     # a function can have multiple statements
     #if a function need to return a value, you can use the return statement
 
-def calculate_square_area(side):
+def calculate_square_area(side: int = 1) -> int:
+  #we used 1 as a default value for the side parameter
+  #this means that if no value is passed to the function, it will use 1
+  #we used int = 1 to specify that the side parameter should be an integer
+  #we used -> int to specify that the function will return an integer value
   #side is a parameter that represents the length of one side of the square
   
   return side * side
 
-area = calculate_square_area(5)
+area = calculate_square_area()
 #calling the function with an argument of 5
 #5 is argument passed to the function
 
 print(f"The area of the square is {area}.")
+# we can anotate parameters with types to indicate what type of value they should accept
+#for example, we can specify that the side parameter should be an integer it should only take value as 5 not "five"
+#we can also anotate the return type so that it it prints number instead of spelling it out
