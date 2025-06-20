@@ -82,3 +82,13 @@ def build_ferarri(color = "red"):
 
 build_ferarri()
 #blue is the argument passed to the function
+################################################################################
+#scope of a variable is the region of the code where the variable is accessible
+#variables defined inside a function are local to that function and cannot be accessed outside of it
+def calculate_square_area(side: int = 1) -> int:
+#side is a parameter that represents the length of one side of the square
+   area = side * side
+   return area
+ 
+calculate_square_area()
+print(f"The area of the square is {area}.")
