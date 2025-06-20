@@ -92,3 +92,4 @@ def calculate_square_area(side: int = 1) -> int:
  
 calculate_square_area()
 print(f"The area of the square is {area}.")
+########################################################################################
