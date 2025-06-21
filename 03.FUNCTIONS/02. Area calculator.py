@@ -20,9 +20,13 @@ Area Calculator
 Select a shape
 """)
 
-selection = input("""\t'S' - Square
+selection = input("""
+---------------------
+\t'S' - Square
 \t'R' - Rectangle
 \t'C' - Circle
+---------------------
+
 """)
 
 
