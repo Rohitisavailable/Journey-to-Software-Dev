@@ -8,6 +8,7 @@ def calculate_rectangle_area(length: float, width: float):
 # Function to calculate the area of a rectangle
 
 def calculate_circle_area(radius: float):
+    #radius is a pa
     pi = 3.14
     return pi * radius ** 2
 # Function to calculate the area of a circle
