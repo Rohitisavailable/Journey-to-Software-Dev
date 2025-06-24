@@ -9,6 +9,9 @@ def login(username: str, password: str) -> bool:
 user = input("Enter your username:")
 passw = input("Enter your password:")
 
+
+attempt = 1
+max_attempt = 5
 while login(user, passw) == False:
     print("Login failed, check again")
     # If the login is unsuccessful, ask for username and password again
