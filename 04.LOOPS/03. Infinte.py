@@ -17,10 +17,16 @@ is_authenticated = False
 while login(user, passw) == False:
     attempt += 1
     if attempt > max_attempt: break
+    #break terminates the loop
     print("Login failed, check again")
-    # If the login is unsuccessful, ask for username and password again
+    
     
     user = input("Enter your username:")
     passw = input("Enter your password:")
-    
-print("Login successful")
+else:
+    is_authenticated = True    
+    print("Login successful")
+
+if not is_authenticated:
+    print("You have been blocked")
+
