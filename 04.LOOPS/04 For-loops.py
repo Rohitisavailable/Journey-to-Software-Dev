@@ -1,10 +1,24 @@
 for index in range(10):
     #print("Called from within a for-in loop")
     if index == 5: break
+    #break statement is used to exit the loop when index is equal to 5
+    #it will stop the loop when index is equal to 5
+    # This will stop the loop when index is equal to 5
     print(f"{index} - iteration count {index +1}")
 
-    
+print("-------------------------------------------------------------------------")
 
+for index in range(10):
+    #print("Called from within a for-in loop")
+    if index % 2 == 0: continue
+    #continue statement is used to skip the number which is divisible by 2
+    #% is used to divide the number by 2 and check the remainder
+    #if the remainder is 0, it means the number is even
+    #it will skip the even numbers and only print the odd numbers
+    # This will skip the even numbers and only print the odd numbers
+    print(f"{index} - iteration count no: {index +1}")
+
+    
 
 
 
