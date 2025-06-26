@@ -1,6 +1,28 @@
 for index in range(10):
     #print("Called from within a for-in loop")
+    if index == 5: break
     print(f"{index} - iteration count {index +1}")
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 # for-in loop is used to iterate over a sequence (list, tuple, string, etc.)
 # range(10) generates a sequence of numbers from 0 to 9
