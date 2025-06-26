@@ -17,13 +17,17 @@ for index in range(10):
     #it will skip the even numbers and only print the odd numbers
     # This will skip the even numbers and only print the odd numbers
     print(f"{index} - iteration count no: {index +1}")
+    #{index} is used to print the index of the loop
+    #index is the variable that holds the current iteration count
+    #{index +1} is used to print the iteration count starting from 1
 
     
 
 
 
 
-
+#break exits the loop immediately
+#while continue shortcuts the current iteration and continues with the next one
 
 
 
