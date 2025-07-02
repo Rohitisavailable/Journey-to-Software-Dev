@@ -64,3 +64,12 @@ for i in range(1, 11):
 # after reaching 5, the loop will stop
 
 #range(start, stop, step)
+
+print("_____________________________________________________________________________________________________________________________________________")
+
+for i in range(1, 11):
+    if i == 5:
+        continue 
+    elif i > 7:
+        break
+    print(i)
