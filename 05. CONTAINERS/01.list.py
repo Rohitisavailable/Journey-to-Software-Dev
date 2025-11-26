@@ -16,3 +16,12 @@ primes.append(7)
 
 
 print(primes)
+
+name = list()
+
+name = ["sam", "cody", "dave", "tom"]
+#in "sam" "" is used to denote that it is a string value
+#if we do not use "" python will think we are referring to a variable named sam
+
+
+print(name)

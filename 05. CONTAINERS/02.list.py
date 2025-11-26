@@ -20,3 +20,13 @@ primes.append(19)
 
 
 print(primes)
+
+
+name = []
+
+name.append("John")
+name.append("Doe")
+name.append("is")
+name.append("a")
+name.append("developer.")
+print(name)
