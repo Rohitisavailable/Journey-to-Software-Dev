@@ -58,3 +58,17 @@ print(f" the length of the char is : {len(character)}")
 #f"" is used for formatted string literals
 #it allows us to embed expressions inside string literals using {}
 #{} is used to evaluate the expression inside it and include the result in the string
+
+
+
+character.insert(2, 19)
+#insert() is a list method that adds an element at a specific index in the list
+#primes.insert(2, 19) adds the value 19 at index 2 of the list
+#this shifts the elements at index 2 and beyond to the right by one position
+
+print(character)
+
+#19 will be added at index 2
+#the list will now be ['a', 19]
+# it adds 19 at second position, but since the list has only one element,
+# it will add 19 at the end of the list
