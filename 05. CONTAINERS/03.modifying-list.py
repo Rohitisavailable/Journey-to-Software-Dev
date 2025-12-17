@@ -61,14 +61,21 @@ print(f" the length of the char is : {len(character)}")
 
 
 
-character.insert(2, 19)
+list.insert(2, 19)
 #insert() is a list method that adds an element at a specific index in the list
-#primes.insert(2, 19) adds the value 19 at index 2 of the list
+#list.insert(2, 19) adds the value 19 at index 2 of the list
 #this shifts the elements at index 2 and beyond to the right by one position
 
-print(character)
+print(list)
+print("we can see that 19 has been added at 3rd position/ index 2")
 
 #19 will be added at index 2
-#the list will now be ['a', 19]
+#the list will now be ["apple", "banana", 19, "cherry", "date"]
 # it adds 19 at second position, but since the list has only one element,
 # it will add 19 at the end of the list
+
+
+character.insert(0, "z")
+print(character)
+
+n = character.pop(0)
