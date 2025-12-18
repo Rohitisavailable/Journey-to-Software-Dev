@@ -87,3 +87,14 @@ n = list.pop(2)
 #pop() is a list method that removes and returns the element at a specific index in the list
 #list.pop(2) removes the element at index 2 of the list and returns it
 #the removed element is stored in the variable n
+
+
+integers =[2, 3, 5, 7, 79, 465,31]
+
+print(integers)
+
+n = integers.pop()
+#list.pop(4) removes the element at index 4 of the list, which is 79
+#the removed element 79 is stored in the variable n
+print(integers)
+print(f"the removed element is : {n} ,the new list is {integers}")
