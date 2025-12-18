@@ -18,3 +18,7 @@ print(even_nums[3])
 #this will print 8, the element at index 3 of the tuple
 #print(even_nums[6])
 #this will raise an IndexError because index 6 is out of range for the tuple
+
+#use a tuple when you want to create a collection of items that should not be changed
+#tuples are immutable, meaning their elements cannot be modified after creation
+#this makes tuples useful for storing data that should remain constant throughout the program
