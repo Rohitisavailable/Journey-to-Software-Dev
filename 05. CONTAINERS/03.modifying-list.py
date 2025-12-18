@@ -98,3 +98,10 @@ n = integers.pop()
 #the removed element 79 is stored in the variable n
 print(integers)
 print(f"the removed element is : {n} ,the new list is {integers}")
+
+integers.remove(7)
+#remove() is a list method that removes the first occurrence of a specified value from the list
+#integers.remove(7) removes the first occurrence of the value 7 from the list
+print(integers)
+#the list will now be [2, 3, 5, 79, 465, 31]
+#the number 7 has been removed from the list which was at index 3
