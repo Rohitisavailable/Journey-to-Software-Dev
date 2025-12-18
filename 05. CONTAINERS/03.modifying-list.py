@@ -67,6 +67,7 @@ list.insert(2, 19)
 #this shifts the elements at index 2 and beyond to the right by one position
 
 print(list)
+
 print("we can see that 19 has been added at 3rd position/ index 2")
 
 #19 will be added at index 2
