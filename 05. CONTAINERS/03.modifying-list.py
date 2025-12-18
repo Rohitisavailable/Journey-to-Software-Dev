@@ -105,3 +105,13 @@ integers.remove(7)
 print(integers)
 #the list will now be [2, 3, 5, 79, 465, 31]
 #the number 7 has been removed from the list which was at index 3
+
+
+
+
+
+# The Common List Methods in Python are:
+# append(value) - Adds an element to the end of the list
+# insert(index, value) - Adds an element at a specific index in the list
+# pop(index) - Removes and returns an element at a specific index in the list
+# remove(value) - Removes the first occurrence of a specified value from the list
