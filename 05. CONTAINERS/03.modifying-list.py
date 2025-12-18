@@ -75,7 +75,14 @@ print("we can see that 19 has been added at 3rd position/ index 2")
 # it will add 19 at the end of the list
 
 
-character.insert(0, "z")
-print(character)
+list.insert(3, "z")
+#list.insert(3, "z") adds the string "z" at index 3 of the list
+#this shifts the elements at index 3 and beyond to the right by one position
 
-n = character.pop(0)
+print(list)
+#the list will now be ["apple", "banana", 19, "z", "cherry", "date"]
+n = list.pop(2)
+
+#pop() is a list method that removes and returns the element at a specific index in the list
+#list.pop(2) removes the element at index 2 of the list and returns it
+#the removed element is stored in the variable n
