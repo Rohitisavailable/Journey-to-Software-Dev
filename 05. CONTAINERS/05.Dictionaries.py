@@ -38,7 +38,14 @@ print(ssn_name_pairs["555-55-5555"])
 #this line will raise a KeyError because "999-999-9999" is not a key in the dictionary
 # it demonstrates that trying to access a non-existent key results in an error
 
+
+
+#---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #summary:
+#Dictionaries store data in key-value pairs
+#They are created using the dict() function or dictionary literals {}
+#Key-value pairs are added using the syntax: dictionary_name[key] = value
+#Values are accessed using their keys with the syntax:
 # value = dictionary_name[key]
 #example:
 # name = ssn_name_pairs["123-45-6789"]
