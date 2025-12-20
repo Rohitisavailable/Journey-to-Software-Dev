@@ -1,3 +1,4 @@
+print("example 1")
 for index in range(10):
     #print("Called from within a for-in loop")
     if index == 5: break
@@ -6,7 +7,7 @@ for index in range(10):
     # This will stop the loop when index is equal to 5
     print(f"{index} - iteration count {index +1}")
 
-print("-------------------------------------------------------------------------")
+print("example 2")
 
 for index in range(10):
     #print("Called from within a for-in loop")
@@ -28,7 +29,7 @@ for index in range(10):
 
 #break exits the loop immediately
 #while continue shortcuts the current iteration and continues with the next one
-print("-------------------------------------------------------------------------")
+print("example 3")
 
 for print_numbers in range(5):
     
@@ -36,7 +37,7 @@ for print_numbers in range(5):
         print(f"{print_numbers}")
 
 
-print("-------------------------------------------------------------------------")
+print("example 4")
 
 #The following program aims to print numbers 1 to 10 but skips 5 and stops after 7. However, there's an issue in the loop control statements that causes it not to work as expected. Can you find the problem and correct it?
 for i in range(1, 11):
@@ -65,7 +66,7 @@ for i in range(1, 11):
 
 #range(start, stop, step)
 
-print("_____________________________________________________________________________________________________________________________________________")
+print("example 4 - corrected")
 
 for i in range(1, 11):
     if i == 5:
