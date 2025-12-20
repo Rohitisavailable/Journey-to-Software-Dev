@@ -35,3 +35,27 @@ else:
 if not is_authenticated:
     print("You have been blocked")
 
+
+
+#summary:
+#This code implements a simple login system with a maximum number of attempts
+#The login function checks if the provided username and password are correct
+#def is used to define a function in Python
+# def function_name(parameters) -> return_type:
+# is_authenticated variable tracks if the user has successfully logged in
+#if username and password match, is_authenticated is set to True
+#else, the user is prompted to try again until max attempts are reached
+#while loop continues to prompt for login until successful or max attempts exceeded
+
+#attempt variable counts the number of login attempts
+#max_attempt variable sets the maximum allowed attempts
+#is_authenticated variable indicates if the user is logged in
+
+#while loop checks the login function
+#while login(user, passw) == False:
+#If login fails, attempt is incremented by 1
+#If attempt is greater than max_attempt, the loop breaks
+#and the user is blocked
+#If login is successful, is_authenticated is set to True
+#and a success message is printed
+#If not authenticated after max attempts, a block message is printed

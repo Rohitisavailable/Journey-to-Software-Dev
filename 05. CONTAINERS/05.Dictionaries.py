@@ -66,6 +66,8 @@ print(ssn_name_pairs)
 #Key-value pairs are added using the syntax: dictionary_name[key] = value
 #Values are accessed using their keys with the syntax:
 # value = dictionary_name[key]
+
+
 #example:
 # name = ssn_name_pairs["123-45-6789"]
 # name will be "Alice Smith"
