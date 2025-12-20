@@ -38,6 +38,25 @@ print(ssn_name_pairs["555-55-5555"])
 #this line will raise a KeyError because "999-999-9999" is not a key in the dictionary
 # it demonstrates that trying to access a non-existent key results in an error
 
+#ssn_name_pairs["123-45-6789"] = "Alice Johnson"
+#this updates the value for the existing key "123-45-6789"
+#ssn_name_pairs["123-45-6787"] = "David Wilson"
+#this adds a new key-value pair to the dictionary
+
+#print(ssn_name_pairs["123-45-6789"])
+#this retrieves the updated value associated with the key "123-45-6789"
+#output: Alice Johnson
+print(ssn_name_pairs)
+
+
+#del dictionary[key]
+#this deletes the key-value pair with the specified key from the dictionary
+del ssn_name_pairs["987-65-4321"]
+#deletes the key-value pair where the key is "987-65-4321"
+#
+print(ssn_name_pairs)
+#this prints the dictionary after deleting the key-value pair with key "987-65-432
+#output: {'123-45-6789': 'Alice Smith', '555-55-5555': 'Charlie Brown'}
 
 
 #---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
