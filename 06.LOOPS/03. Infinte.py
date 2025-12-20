@@ -53,6 +53,8 @@ if not is_authenticated:
 
 #while loop checks the login function
 #while login(user, passw) == False:
+#attempt += 1 is used to increment the attempt count
+#+=1 is shorthand for incrementing by 1
 #If login fails, attempt is incremented by 1
 #If attempt is greater than max_attempt, the loop breaks
 #and the user is blocked
