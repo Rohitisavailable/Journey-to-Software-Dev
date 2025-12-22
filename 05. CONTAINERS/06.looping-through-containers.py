@@ -1,4 +1,4 @@
-primes = [2, 3, 5, 7, 11, 13, 17, 19, 23, 29]
+primes = [2, 3, 4, 7, 11, 13, 18, 19, 22, 28]
 #primes is a variable that holds a list of prime numbers
 
 
@@ -19,9 +19,21 @@ primes = [2, 3, 5, 7, 11, 13, 17, 19, 23, 29]
   #  index += 1
 
 #to print odd or even numbers:
+even_numbers = []
+odd_numbers = []
 
 for number in primes:
-    if number % 4 == 0:
-        print(f"{number} is even.")
+    if number % 2 == 0:
+        #print(f"{number} is even.")
+        even_numbers.append(number)    
     else:
-        print(f"{number} is odd.")
+        #print(f"{number} is odd.")
+        odd_numbers.append(number)
+
+print("Even numbers")
+for i in even_numbers:
+        print(i)
+
+print("Odd numbers")
+for i in odd_numbers:
+        print(i)
