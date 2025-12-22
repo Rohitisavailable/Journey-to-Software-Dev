@@ -88,6 +88,24 @@ print(ssn_name_pairs)
 # value = dictionary_name[key]
 
 
+# to create a dictionary:
+# dictionary_name = dict()
+# or
+# dictionary_name = {key1: value1, key2: value2, ...}
+
+
+#to add key-value pairs:
+# dictionary_name[key] = value
+
+
+#to modify existing values:
+# dictionary_name[key] = new_value
+
+
+#to delete key-value pairs:
+# del dictionary_name[key]
+
+
 #example:
 # name = ssn_name_pairs["123-45-6789"]
 # name will be "Alice Smith"
