@@ -65,17 +65,28 @@ print(ssn_name_pairs)
 print(ssn_name_pairs)
 
 
-key = "000-000-002"
+#key = "000-000-002"
 #key is a variable storing the key to be deleted
 #"000-000-002" is a valid key in the dictionary
-if key in ssn_name_pairs:
+#if key in ssn_name_pairs:
     #if the key exists in the dictionary(ssn_name_pairs)
-    del ssn_name_pairs[key]
+#    del ssn_name_pairs[key]
     #delete the key-value pair(ssn_name_pairs) with the specified key[key]
+#else:
+ #   print(f"Key {key} not found in dictionary.")
+  #  #else, print a message indicating the key was not found
+#print(ssn_name_pairs)
+
+
+
+key = "000-000-d002"
+
+if key in ssn_name_pairs:
+    print(f"these key:-{key} exists in the dictionary.")
+
 else:
     print(f"Key {key} not found in dictionary.")
-    #else, print a message indicating the key was not found
-print(ssn_name_pairs)
+
 
 #this checks if the key exists in the dictionary before attempting to delete it
 
