@@ -16,7 +16,8 @@ ssn_name_pairs["555-55-5555"] = "Charlie Brown"
 ssn_name_pairs = {
     "123-45-6789": "Alice Smith",
     "987-65-4321": "Bob Johnson",
-    "555-55-5555": "Charlie Brown"
+    "555-55-5555": "Charlie Brown",
+    "000-000-002": "Diana Prince"
 }
 #this is another way to create the same dictionary using a dictionary literal
 #it initializes the dictionary with three key-value pairs
@@ -58,6 +59,25 @@ print(ssn_name_pairs)
 #this prints the dictionary after deleting the key-value pair with key "987-65-432
 #output: {'123-45-6789': 'Alice Smith', '555-55-5555': 'Charlie Brown'}
 
+#del ssn_name_pairs["121-131-3131"]
+#this line will raise a KeyError because "121-131-3131" is not a key in the dictionary
+
+print(ssn_name_pairs)
+
+
+key = "000-000-002"
+#key is a variable storing the key to be deleted
+#"000-000-002" is a valid key in the dictionary
+if key in ssn_name_pairs:
+    #if the key exists in the dictionary(ssn_name_pairs)
+    del ssn_name_pairs[key]
+    #delete the key-value pair(ssn_name_pairs) with the specified key[key]
+else:
+    print(f"Key {key} not found in dictionary.")
+    #else, print a message indicating the key was not found
+print(ssn_name_pairs)
+
+#this checks if the key exists in the dictionary before attempting to delete it
 
 #---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #summary:
