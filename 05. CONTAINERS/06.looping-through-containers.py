@@ -37,3 +37,21 @@ for i in even_numbers:
 print("Odd numbers")
 for i in odd_numbers:
         print(i)
+
+
+ssn_name_pairs = {"123-456-789":"Ray apple",
+                  "000-000-001":"blue sins",
+                  "000-000-002":"black nigger",}
+
+keys = ssn_name_pairs.keys()
+#this returns all keys as set
+
+values = ssn_name_pairs.values()
+
+print("Dictionary keys")
+
+for key in keys:
+      print(key)
+
+for value in values:
+      print(value)
