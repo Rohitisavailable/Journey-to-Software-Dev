@@ -1,3 +1,6 @@
+print("""
+1st Example:-
+      """)
 primes = [2, 3, 4, 7, 11, 13, 18, 19, 22, 28]
 #primes is a variable that holds a list of prime numbers
 
@@ -38,6 +41,9 @@ print("Odd numbers")
 for i in odd_numbers:
         print(i)
 
+print("""
+2nd example:-
+      """)
 
 ssn_name_pairs = {"123-456-789":"Ray apple",
                   "000-000-001":"blue sins",
@@ -55,3 +61,25 @@ for key in keys:
 
 for value in values:
       print(value)
+
+print("""
+3rd example:-
+      """)
+
+key_value_pairs = ssn_name_pairs.items()
+
+print("key-value-pairs")
+for key_value in key_value_pairs:
+      print(key_value)
+
+
+print("""
+4th examples:-
+""")
+key_value_pairs = ssn_name_pairs.items()
+
+print("key-value-pairs")
+
+for (key, value) in key_value_pairs:
+      print(key, value)
+      
