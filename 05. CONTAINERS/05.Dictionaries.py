@@ -39,9 +39,9 @@ print(ssn_name_pairs["555-55-5555"])
 #this line will raise a KeyError because "999-999-9999" is not a key in the dictionary
 # it demonstrates that trying to access a non-existent key results in an error
 
-#ssn_name_pairs["123-45-6789"] = "Alice Johnson"
+ssn_name_pairs["123-45-6789"] = "Alice Johnson"
 #this updates the value for the existing key "123-45-6789"
-#ssn_name_pairs["123-45-6787"] = "David Wilson"
+ssn_name_pairs["123-45-6787"] = "David Wilson"
 #this adds a new key-value pair to the dictionary
 
 #print(ssn_name_pairs["123-45-6789"])
