@@ -1,12 +1,21 @@
 def solve_eqn(a: float, b : float, c:float) -> float:
     try:
+
 #def funtion_name(parm1: type, parm2: type, param3: type) -> return_type:
+
         return(float(c) - float(b)) / float(a)
+
     #return to c - b divided by a
     #x = (c - b) / a
+
     except ZeroDivisionError:
-        print("error a cant be zero enter valid")
+        #we used ZeroDivisionError to handle division by zero error
+        #we used ValueError to handle invalid input error
+        print("error 'a' cant be zero enter valid")
+    except ValueError:
+        print("error enter numeric value")
 print("ax + b = c linear eqn")
+
 #we used ax for coefficient of x
 #example: 2x + 3 = 7
 #x = (c - b) / a
