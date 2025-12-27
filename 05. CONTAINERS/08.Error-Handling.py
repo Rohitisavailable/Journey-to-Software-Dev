@@ -33,3 +33,5 @@ print(f"x is {x}")
 #summary:
 #error handling is a way to manage and respond to errors that may occur during the execution of a program.
 #there are different types of errors like syntax errors, runtime errors, logical errors etc.
+
+
