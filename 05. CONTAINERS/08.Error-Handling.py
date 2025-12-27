@@ -24,7 +24,8 @@ a = input("Enter a: ")
 b = input("Enter b: ")
 c = input("Enter c: ")
 
-x = solve_eqn(a, b, c)
+try:
+    x = solve_eqn(a, b, c)
 #x is assigned the return value of solve_eqn function
 print(f"x is {x}")
 
