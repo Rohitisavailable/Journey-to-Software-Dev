@@ -16,3 +16,6 @@ count = write_file(filename, "Hello, World!")
 
 if count != None:
     print(f"{count} characters were written to {filename}")
+
+import os
+print(os.path.abspath(os.getcwd()))
