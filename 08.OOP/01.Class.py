@@ -26,7 +26,7 @@ class Pokemon:
         self.armor = max_armor  # Set the armor to the maximum value
         self.hit_point = max_hit  # Set the hit points to the maximum value
         #self. is used to refer to the instance itself
-
+        self._is_charging = False
 
     def attack(self):
         #def attack(self):  # Define the attack method
@@ -37,7 +37,8 @@ class Pokemon:
         """
         print(f"{self.name} attack")  # Print an attack message with the Pokemon's name
     
-
+    def _change_attack(self):
+        print(f"{self.name} is charging")
 
     def defend(self):
         #def defend(self):  # Define the defend method
@@ -77,7 +78,7 @@ pikachu.defend()  # Call the defend method
 pikachu.display_name()    # Call the display_name method
 pikachu.get_name()  # Call the get_name method
 pikachu.sleep() # Call the sleep method
-
+pikachu._change_attack
 
 
 
