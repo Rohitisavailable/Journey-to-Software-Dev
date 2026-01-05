@@ -13,7 +13,7 @@ class Pokemon:
         hit_point (int): The hit points of the Pokemon.
     """
     
-    def __init__(self, name: int, max_armor: int, max_hit: int):
+    def __init__(self, name: str, max_armor: int, max_hit: int):
         """
         Initialize a new Pokemon instance.
         
@@ -76,4 +76,18 @@ pikachu.attack()  # Call the attack method
 pikachu.defend()  # Call the defend method
 pikachu.display_name()    # Call the display_name method
 pikachu.get_name()  # Call the get_name method
-pikachu.sleep()
+pikachu.sleep() # Call the sleep method
+
+
+
+
+snorlax = Pokemon("Snorlax", 150, 5000)
+
+snorlax.attack()
+snorlax.defend()
+snorlax.display_name()
+snorlax.get_name()
+snorlax.sleep()
+
+
+charmander = Pokemon("Charmander", 400, 50000)
