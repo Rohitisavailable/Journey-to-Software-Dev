@@ -65,10 +65,15 @@ class Pokemon:
     def sleep(self):
         print(f"ZZZzzzzZZZzz {self.name} is now going to sleepzzZzZzZzZ")
 
-# Create a Pokemon instance named Pikachu with armor 100 and hit points 1000
+
+
+
+
+
+    # Create a Pokemon instance named Pikachu with armor 100 and hit points 1000
 pikachu = Pokemon("pikachu", 100, 1000)
-#pikachu is an object of the Pokemon class, which has its own attributes and methods, which can be accessed using the dot notation.
-#For example, pikachu.name will return "pikachu", and pikachu.attack() will call the attack method.
+    #pikachu is an object of the Pokemon class, which has its own attributes and methods, which can be accessed using the dot notation.
+    #For example, pikachu.name will return "pikachu", and pikachu.attack() will call the attack method.
 
 
 
