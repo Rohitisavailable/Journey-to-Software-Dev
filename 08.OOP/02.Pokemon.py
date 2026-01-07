@@ -22,5 +22,15 @@ class FlyingPokemon(Pokemon):
         print("Dragon is now attacking")
 
 class WaterPokemon(Pokemon): 
+    def __init__(self, name: str, max_armor: int, max_attack: int, speed: int):
+        Pokemon.__init__(self, name, max_armor, max_attack)
+        self.speed = speed
     def aqua_tail(self):
         print("Aqua is now attacking")
+
+
+pikachu = Pokemon("Pikachu", 100, 1000)
+pikachu.attack()
+
+vaporeon = WaterPokemon("Vaporeon", 99, 1000, 20)
+vaporeon.attack()
