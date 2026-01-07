@@ -30,7 +30,14 @@ class WaterPokemon(Pokemon):
 
 
 pikachu = Pokemon("Pikachu", 100, 1000)
-pikachu.attack()
+raichu = ElectricPokemon("Raichu", 500, 1000)
+vaporeon = WaterPokemon("Vaporeon", 99, 1000, 500)
+togekiss = FlyingPokemon("Togekiss", 100, 500,)
 
-vaporeon = WaterPokemon("Vaporeon", 99, 1000, 20)
-vaporeon.attack()
+
+Pokemons = (pikachu, vaporeon, togekiss, raichu)
+
+for pokemon in Pokemons:
+    pokemon.attack()
+
+
