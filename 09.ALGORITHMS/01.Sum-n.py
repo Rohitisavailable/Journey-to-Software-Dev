@@ -1,15 +1,12 @@
 import time
 
-
-
-
 def sum(n: int) -> int:
     result = 0
     for i in range(n + 1):
         result += i
     return result
 
-ranges = (10, 1000, 10000, 100000)
+ranges = (100, 1000, 10000, 10000)
 
 
 for n in ranges:
