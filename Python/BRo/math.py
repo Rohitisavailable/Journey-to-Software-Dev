@@ -15,7 +15,7 @@ result = abs(i)
 print(result)
 
 #POWER FUNCTION
-#4X3 = 64 
+# here 4^3
 result = pow(4, 3)
 
 print(result)
