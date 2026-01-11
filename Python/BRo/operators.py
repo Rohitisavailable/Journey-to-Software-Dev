@@ -32,4 +32,8 @@ friends **= 2
 
 print(friends)
 
-#
+#MODULUS OPERATORS( GIVES REMAINDER)
+
+remainder = friends % 3
+
+print(remainder)
