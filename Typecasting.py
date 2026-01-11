@@ -1,5 +1,5 @@
 #Typecasting = The process of converting a variable from one data type to another
-
+# str(), int(), bool(), float()
 
 name = "Dawg"
 age = 25
@@ -27,3 +27,15 @@ age1 = str(age)
 print(age1)
 #it will convert it into string not in integer
 print(type(age1))
+
+age3 = str(age)
+
+age3 += "1"
+print(age3)
+#THIS WILL ADD 1 AT THE END MAKING 25 INTO 251
+
+
+name = bool(name)
+
+print(name)
+#it will print true, if the string was empty it will print false
