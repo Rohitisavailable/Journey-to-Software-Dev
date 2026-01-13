@@ -3,7 +3,8 @@
 age = int(input("Enter Your Age: "))
 
 if age == 18:
-    print(f"Your age is 18")
-
+    print(f"You can enter")
+elif age < 0:
+    print("You haven't been born")
 else:
-    print("Your age is not 18")
+    print("You cannot enter")
