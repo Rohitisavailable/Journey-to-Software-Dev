@@ -3,10 +3,19 @@
 .box {
   background-color: blue;
   padding: 10px;
+
 }
 
 p {
   color: yellow;
   margin: 0;
   padding: 0;
+}
+body{
+  border: 10px solid purple;
+}
+.white-text{
+  background-color: red;
+  border: 10px solid red;
+  color: white;
 }
